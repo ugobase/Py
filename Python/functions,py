@@ -1,0 +1,23 @@
+# import boto3
+# ssm_client = boto3.client('ssm')
+
+
+# def get_ssm_secrets(parameter_name):
+#     response = ssm_client.get_parameter(Name=parameter_name, WithDecryption=True)
+#     parameter_value = response['Parameter']['Value']
+#     # print(parameter_value)
+#     return parameter_value
+
+# movie_db_credentials = get_ssm_secrets("netflix-movies-db")
+# user_db_credentials = get_ssm_secrets("netflix-user-db")
+
+
+# def calculate_bmi(height, weight):
+#     bmi = (weight / (height * height)) * 10000
+#     print("hi i am calculate bmi here is the proof I run")
+#     return bmi
+
+
+
+# result = calculate_bmi(162, 60)
+# print(result)
